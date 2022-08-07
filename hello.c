@@ -28,11 +28,11 @@ int main(){
             f=fopen('xt.txt','w');
             printf("Account no %d\n",i);
             printf("enter the first and lastname:\n");
-            fscanf("%s%s",s->first_name,s->last_name);
+            fscanf(f,"%s%s",s->first_name,s->last_name);
             printf("enter the Phone number: \n");
-            fscanf("%d",&s->phone_number);
+            fscanf(f,"%d",&s->phone_number);
             printf("Enter the Pan card number :\n");
-            fscanf("%s",s->pan);        
+            fscanf(f,"%s",s->pan);        
     }
         printf("Thank you for choosing us!!\n");
         printf("Check your entered details below\n");
